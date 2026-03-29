@@ -14,7 +14,7 @@ class Solution {
                 if (!stack.isEmpty()) {
                     stack.pop();
                 } else {
-                    remove[i] = true;  // invalid ')'
+                    remove[i] = true;   
                 }
             }
         }
